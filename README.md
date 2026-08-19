@@ -1,6 +1,6 @@
 For a BSV simulation , the general form is 
 
-1. Compile + elaborate
+1. Compile + elaborate 
    bsc -sim -g <TopModule> <SourceFile.bsv>
    
 2. Build the simulation executable
