@@ -23,3 +23,4 @@ bsc -sim -g <TopModule> <SourceFile.bsv>
 bsc -sim -e <TopModule>
 ./a.out
 ```
+Attached below is the Notion page which served as an introduction to Bluespec and implemented are the exercises mentioned in them
