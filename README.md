@@ -1,15 +1,25 @@
-For a BSV simulation , the general form is 
+## Running the Simulation
 
-1. Compile + elaborate 
+The general sequence for a BSV simulation is:
+
+1. **Compile + elaborate**
+```bash
    bsc -sim -g <TopModule> <SourceFile.bsv>
-   
-2. Build the simulation executable
-   bsc -sim -e <TopModule>
+```
 
-3. Run the simulation
-   ./a.out
-
-   Complete general sequence
-   bsc -sim -g <TopModule> <SourceFile.bsv>
+2. **Build the simulation executable**
+```bash
    bsc -sim -e <TopModule>
+```
+
+3. **Run the simulation**
+```bash
    ./a.out
+```
+
+### Complete sequence
+```bash
+bsc -sim -g <TopModule> <SourceFile.bsv>
+bsc -sim -e <TopModule>
+./a.out
+```
