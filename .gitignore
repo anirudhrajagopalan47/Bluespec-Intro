@@ -1,0 +1,18 @@
+# Bluespec intermediate files
+*.bo
+*.ba
+
+# Generated C/C++ files
+*.cxx
+*.o
+*.so
+*.h
+
+# Simulation executables
+a.out
+sim
+
+# Generated model files
+model_*
+
+
